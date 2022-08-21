@@ -1,11 +1,12 @@
 {
   "name": "create-klabs-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/kroma-pt/create-klabs-app.git"
   },
+  "main": "src/index.ts",
   "keywords": [],
   "author": {
     "name": "Paul Cedrick Artigo",
@@ -14,6 +15,9 @@
   "license": "MIT",
   "bin": {
     "create-klabs-app": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "type": "module",
   "scripts": {
