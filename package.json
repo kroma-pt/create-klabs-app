@@ -1,5 +1,5 @@
 {
-  "name": "@kroma-pt/create-klabs-app",
+  "name": "create-klabs-app",
   "version": "0.0.1",
   "description": "",
   "repository": {
@@ -12,7 +12,9 @@
     "email": "paul.artigo@kroma.ph"
   },
   "license": "MIT",
-  "bin": "dist/index.js",
+  "bin": {
+    "create-klabs-app": "./dist/index.js"
+  },
   "type": "module",
   "scripts": {
     "compile": "tsc",

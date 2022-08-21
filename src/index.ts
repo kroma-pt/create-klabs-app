@@ -33,5 +33,3 @@ inquirer
   .then((answers) => {
     console.log(green(answers.appName));
   });
-
-green("Done!");
