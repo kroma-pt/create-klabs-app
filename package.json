@@ -2,6 +2,7 @@
   "name": "create-klabs-app",
   "version": "0.0.1",
   "packageManager": "yarn@3.2.2",
+  "bin": "dist/index.js",
   "type": "module",
   "scripts": {
     "compile": "tsc",
