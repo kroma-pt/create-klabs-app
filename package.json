@@ -1,6 +1,6 @@
 {
   "name": "create-klabs-app",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "",
   "repository": {
     "type": "git",
@@ -26,12 +26,19 @@
     "start": "npm run compile && npm run dev"
   },
   "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/fs-extra": "^9.0.13",
     "@types/inquirer": "^9.0.1",
     "@types/node": "^18.7.8",
+    "@types/ora": "^3.2.0",
+    "fs-extra": "^10.1.0",
     "typescript": "^4.7.4"
   },
   "dependencies": {
+    "cli-spinners": "^2.7.0",
     "colorette": "^2.0.19",
-    "inquirer": "^9.1.0"
+    "commander": "^9.4.0",
+    "inquirer": "^9.1.0",
+    "ora": "^6.1.2"
   }
 }
