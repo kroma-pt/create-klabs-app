@@ -55,7 +55,6 @@ program
 
     const spinner = ora();
     spinner.start("Starting to create your project");
-    console.log({ source, cwd });
     try {
       await fs.access(source);
     } catch (e) {
